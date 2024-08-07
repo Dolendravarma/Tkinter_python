@@ -69,18 +69,18 @@ def messenger(hmt,wt,msg):
 
 #creating the widgets:
 
-hmt_label=Label(m_w,text='How many times :',font=('Arial',14))
+hmt_label=Label(m_w,text='How many times :',font=('Arial',14),fg='red')
 hmt_e=Entry(m_w,width=5,font=('Arial',18))
 hmt_times=Label(m_w,text='times(0 to infinite times):',font=('Arial',12))
             
 wt_e=Entry(m_w,width=5,font=('Arial',18))
-wt_label=Label(m_w,text='waiting time:',font=('Arial',14))           
+wt_label=Label(m_w,text='waiting time:',font=('Arial',14),fg='green')           
 wt_sec=Label(m_w,text='seconds:',font=('Arial',12))
            
-msg_label=Label(m_w,text='Message:',font=('Arial',14))
+msg_label=Label(m_w,text='Message:',font=('Arial',14),fg='blue')
 msg_e=Entry(m_w,width=30,font=('Arial',18))
 
-send_button=Button(m_w,text='Start Sending',font=('Arial',14),command=lambda:messenger(hmt_e.get(),wt_e.get(),msg_e.get()))
+send_button=Button(m_w,text='Start Sending',font=('Arial',14),command=lambda:messenger(hmt_e.get(),wt_e.get(),msg_e.get()),bg='orange')
 
            
 #showing widgets
