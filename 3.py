@@ -1,4 +1,4 @@
-#Create Say Hello GUI App with Tkinter - Python Advanced Tutorials in Telugu - Tkinter Tutorial 3
+#Create Say Hello GUI App with Tkinter - Python Advanced Tutorials - Tkinter Tutorial 3
 
 from tkinter import *
 
