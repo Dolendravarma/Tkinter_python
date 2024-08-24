@@ -1,4 +1,4 @@
-#Graphical User Interface App in Python | Python Advanced Tutorials in Telugu | Tkinter Tutorial 1::..
+#Graphical User Interface App in Python | Python Advanced Tutorials| Tkinter Tutorial 1::..
 
 from tkinter import *
 
