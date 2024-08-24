@@ -1,4 +1,4 @@
-#Create Buttons and Input Fields in GUI - Python Advanced Tutorials in Telugu - Tkinter Tutorial 2::
+#Create Buttons and Input Fields in GUI - Python Advanced Tutorials  - Tkinter Tutorial 2::
 
 from tkinter import *
 
